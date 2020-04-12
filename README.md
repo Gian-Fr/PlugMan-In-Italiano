@@ -11,7 +11,7 @@ PlugMan è un semplice plugin che permette agli admin di gestire i plugins in-ga
 * Trova il plugin che ha registrato quel comando.
 * Auto riempimento con TAB per i nomi dei comandi e i nomi dei plugins.
 * Crea un file con la lista dei plugins e le versioni.
-* ~Controlla se il plugin è aggiornato con dev.bukkit.org~ Attualmente non disponibile
+* Controlla se il plugin è aggiornato con dev.bukkit.org 
 * Supporto dei Permessi - Tutti i comandi sono OP di default.
 
 ## Comandi
