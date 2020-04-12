@@ -1,6 +1,6 @@
 # PlugMan
 
-PlugMan è un semplice plugin che permette agli admin di gestire i plugins in-game o con la conscole senza dover riavviare il server.
+PlugMan è un semplice plugin che permette agli admin di gestire i plugins in-game o con la console senza dover riavviare il server.
 
 ## Features
 * Attiva, Disattiva, Riavvia, Carica, Ricarica, e Disattiva i plugins in-game oppure con la console.
