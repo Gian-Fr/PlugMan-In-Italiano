@@ -58,7 +58,7 @@ PlugMan è un semplice plugin che permette agli admin di gestire i plugins in-ga
 ## Configurazione
 | File | URL |
 | ----- | ------- |
-| config.yml | https://github.com/r-clancy/PlugMan/blob/master/src/main/resources/config.yml |
+| config.yml | https://github.com/Gian-Fr/PlugMan-In-Italiano/blob/master/src/main/resources/config.yml |
 
 ## Sponsor 
 
