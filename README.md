@@ -1,89 +1,89 @@
 # PlugMan
 
-PlugMan is a simple, easy to use plugin that lets server admins manage plugins from either in-game or console without the need to restart the server.
+PlugMan è un semplice plugin che permette agli admin di gestire i plugins in-game o con la conscole senza dover riavviare il server.
 
 ## Features
-* Enable, disable, restart, load, reload, and unload plugins from in-game or console.
-* List plugins alphabetically, with version if specified.
-* Get useful information on plugins such as commands, version, author(s), etc.
-* Easily manage plugins without having to constantly restart your server.
-* List commands a plugin has registered.
-* Find the plugin a command is registered to.
-* Tab completion for command names and plugin names.
-* Dump plugin list with versions to a file.
-* Check if a plugin is up-to-date with dev.bukkit.org
-* Permissions Support - All commands default to OP.
+* Attiva, Disattiva, Riavvia, Carica, Ricarica, e Disattiva i plugins in-game oppure con la console.
+* Mostra i plugins in ordine alfabetico, con la versione (se specificata).
+* Ottieni informazioni utili sui plugins ( comandi, versione, autore(i), etc. )
+* Gestisci facilmente i plugins senza dover continuamente riavviare il server.
+* Mostra i comandi registrati da un plugin.
+* Trova il plugin che ha registrato quel comando.
+* Auto riempimento con TAB per i nomi dei comandi e i nomi dei plugins.
+* Crea un file con la lista dei plugins e le versioni.
+* ~Controlla se il plugin è aggiornato con dev.bukkit.org~ Attualmente non disponibile
+* Supporto dei Permessi - Tutti i comandi sono OP di default.
 
-## Commands
-| Command | Description |
+## Comandi
+| Comando | Descrizione |
 | --------------- | ---------------- |
-| /plugman help | Show help information. |
-| /plugman list [-v] | List plugins in alphabetical order. Use "-v" to include versions. |
-| /plugman info [plugin] | Displays information about a plugin. |
-| /plugman dump | Dump plugin names and version to a file. |
-| /plugman usage [plugin] | List commands that a plugin has registered. |
-| /plugman lookup [command] | Find the plugin a command is registered to. |
-| /plugman enable [plugin&#124;all] | Enable a plugin. |
-| /plugman disable [plugin&#124;all] | Disable a plugin. |
-| /plugman restart [plugin&#124;all] | Restart (disable/enable) a plugin. |
-| /plugman load [plugin] | Load a plugin. |
-| /plugman reload [plugin&#124;all] | Reload (unload/load) a plugin. |
-| /plugman unload [plugin] | Unload a plugin. |
-| /plugman check [plugin&#124;all] [-f] | Check if a plugin is up-to-date. |
+| /plugman help | Mostra informazioni di aiuto. |
+| /plugman list [-v] | Mostra tutti i Plugin (-v mostra le versioni). |
+| /plugman info [plugin] | Ricevi informazioni su quel Plugin. |
+| /plugman dump | Copia il nome e la versione del Plugin in un File. |
+| /plugman usage [plugin] | Mostra i comandi che sono registrati dal Plugin. |
+| /plugman lookup [command] | Trova il Plugin a cui è registrato il comando. |
+| /plugman enable [plugin&#124;all] | Attiva il Plugin (all attiva tutti). |
+| /plugman disable [plugin&#124;all] | Disattiva il Plugin (all disattiva tutti). |
+| /plugman restart [plugin&#124;all] | Riavvia il Plugin (all riavvia tutti). |
+| /plugman load [plugin] | Carica il Plugin. |
+| /plugman reload [plugin&#124;all] | Ricarica il Plugin. |
+| /plugman unload [plugin] | Rimuove il Plugin (per caricarlo nuovamente usa load). |
+| /plugman check [plugin&#124;all] [-f] | Controlla se un Plugin è aggiornato (-f copia in un file per tutti). |
 
-## Permissions
-| Permission Node | Default | Description |
+## Permessi
+| Permesso | Default | Descrizione |
 | ------------------------- | ---------- | ---------------- |
-| plugman.admin | OP | Allows use of all PlugMan commands. |
-| plugman.update | OP | Allows user to see update messages. |
-| plugman.help | OP | Allow use of the help command. |
-| plugman.list | OP | Allow use of the list command. |
-| plugman.info | OP | Allow use of the info command. |
-| plugman.dump | OP | Allow use of the dump command. |
-| plugman.usage | OP | Allow use of the usage command. |
-| plugman.lookup | OP | Allow use of the lookup command. |
-| plugman.enable | OP | Allow use of the enable command. |
-| plugman.enable.all | OP | Allow use of the enable all command. |
-| plugman.disable | OP | Allow use of the disable command. |
-| plugman.disable.all | OP | Allow use of the disable all command. |
-| plugman.restart | OP | Allow use of the restart command. |
-| plugman.restart.all | OP | Allow use of the restart all command. |
-| plugman.load | OP | Allow use of the load command. |
-| plugman.reload | OP | Allow use of the reload command. |
-| plugman.reload.all | OP | Allow use of the reload all command. |
-| plugman.unload | OP | Allow use of the unload command. |
-| plugman.check | OP | Allow use of the check command. |
-| plugman.check.all | OP | Allow use of the check command. |
+| plugman.admin | OP | Consente l'uso di tutti i comandi. |
+| plugman.update | OP | Consente agli utenti di vedere i messaggi di aggiornamento. |
+| plugman.help | OP | Consente l'uso del comando /plugman help. |
+| plugman.list | OP | Consente l'uso del comando /plugman list. |
+| plugman.info | OP | Consente l'uso del comando /plugman info. |
+| plugman.dump | OP | Consente l'uso del comando /plugman dump. |
+| plugman.usage | OP | Consente l'uso del comando /plugman usage. |
+| plugman.lookup | OP | Consente l'uso del comando /plugman lookup. |
+| plugman.enable | OP | Consente l'uso del comando /plugman enable. |
+| plugman.enable.all | OP | Consente l'uso del comando /plugman enable all. |
+| plugman.disable | OP | Consente l'uso del comando /plugman disable. |
+| plugman.disable.all | OP | Consente l'uso del comando /plugman disable all. |
+| plugman.restart | OP | Consente l'uso del comando /plugman restart. |
+| plugman.restart.all | OP | Consente l'uso del comando /plugman enable all. |
+| plugman.load | OP | Consente l'uso del comando /plugman load. |
+| plugman.reload | OP | Consente l'uso del comando /plugman reload. |
+| plugman.reload.all | OP | Consente l'uso del comando /plugman reload all. |
+| plugman.unload | OP | Consente l'uso del comando /plugman unload. |
+| plugman.check | OP | Consente l'uso del comando /plugman check. |
+| plugman.check.all | OP | Consente l'uso del comando /plugman check all. |
 
-## Configuration
+## Configurazione
 | File | URL |
 | ----- | ------- |
 | config.yml | https://github.com/r-clancy/PlugMan/blob/master/src/main/resources/config.yml |
 
-## Sponsors
+## Sponsor 
 
 <div style="text-align:center" markdown="1">
 
 ![image](https://raw.githubusercontent.com/r-clancy/PlugMan/master/images/jetbrains_logo.png "JetBrains")
 
-JetBrains is kindly supporting the PlugMan open source project with it's full-featured Java IDE.
+JetBrains sta gentilmente supportando il progetto open source ( PlugMan ) con il suo Java IDE pieno di Features!
 
-Take a look a JetBrain's leading software products over on <a href="http://www.jetbrains.com/">their website.</a>
+Dai un occhiata al software JetBrains <a href="http://www.jetbrains.com/">sul sito.</a>
 
 ---
 
 ![image](https://raw.githubusercontent.com/r-clancy/PlugMan/master/images/yourkit_logo.png "YourKit")
 
-YourKit is kindly supporting the PlugMan open source project with its full-featured Java Profiler.
+YourKit sta gentilmente supportando il progetto open source ( PlugMan ) con il suo Java Profiler pieno di Features!
 
-YourKit, LLC is the creator of innovative and intelligent tools for profiling Java and .NET applications.
+YourKit è il creatore di strumenti innovativi e intelligenti per il profiling Java e .NET .
 
-Take a look at YourKit's leading software products: <a href="http://www.yourkit.com/java/profiler/index.jsp">YourKit Java Profiler</a> and <a href="http://www.yourkit.com/.net/profiler/index.jsp">YourKit .NET Profiler</a>.
+Dai un occhiata al software YourKit : <a href="http://www.yourkit.com/java/profiler/index.jsp"> Java Profiler</a> e <a href="http://www.yourkit.com/.net/profiler/index.jsp"> .NET Profiler</a>.
 
 ---
 
 ![image](https://raw.githubusercontent.com/r-clancy/PlugMan/master/images/intreppid_logo.png "Intreppid Logo")
 
-Intreppid is kindly supporting the PlugMan open source project with hosting for the Jenkins build server along with a test platform for development.
+Intreppid sta gentilmente supportando il progetto open source ( PlugMan ) con l' hosting per le build Jenkins insieme ad una piattaforma di test per lo sviluppo.
 
-Take a look at Intreppid's premium Minecraft server and dedicated servers on <a href="https://www.intreppid.com/">their website</a>.
+Dai un occhiata all' hosting premium (server dedicati e server di minecraft) di Intreppid <a href="https://www.intreppid.com/">sul sito </a>.
