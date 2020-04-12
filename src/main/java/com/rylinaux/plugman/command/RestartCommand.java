@@ -48,7 +48,7 @@ public class RestartCommand extends AbstractCommand {
     /**
      * The description of the command.
      */
-    public static final String DESCRIPTION = "Restart a plugin.";
+    public static final String DESCRIPTION = "Riavvia il Plugin.";
 
     /**
      * The main permission of the command.

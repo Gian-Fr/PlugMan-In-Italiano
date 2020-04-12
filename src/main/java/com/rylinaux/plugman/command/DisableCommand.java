@@ -48,7 +48,7 @@ public class DisableCommand extends AbstractCommand {
     /**
      * The description of the command.
      */
-    public static final String DESCRIPTION = "Disable a plugin.";
+    public static final String DESCRIPTION = "Disattiva il Plugin.";
 
     /**
      * The main permission of the command.

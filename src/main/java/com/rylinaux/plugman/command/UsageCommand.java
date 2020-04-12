@@ -48,7 +48,7 @@ public class UsageCommand extends AbstractCommand {
     /**
      * The description of the command.
      */
-    public static final String DESCRIPTION = "List commands a plugin has registered.";
+    public static final String DESCRIPTION = "Mostra i comandi che sono registrati da quel Plugin.";
 
     /**
      * The main permission of the command.

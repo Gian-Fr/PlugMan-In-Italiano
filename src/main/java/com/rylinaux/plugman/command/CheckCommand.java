@@ -58,7 +58,7 @@ public class CheckCommand extends AbstractCommand {
     /**
      * The description of the command.
      */
-    public static final String DESCRIPTION = "Check if a plugin is up-to-date.";
+    public static final String DESCRIPTION = "Controlla se un Plugin e' aggiornato.";
 
     /**
      * The main permission of the command.

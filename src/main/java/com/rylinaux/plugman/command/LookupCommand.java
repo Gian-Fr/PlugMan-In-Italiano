@@ -51,7 +51,7 @@ public class LookupCommand extends AbstractCommand {
     /**
      * The description of the command.
      */
-    public static final String DESCRIPTION = "Find which plugin a command is registered to.";
+    public static final String DESCRIPTION = "Trova il Plugin che ha registrato quel comando.";
 
     /**
      * The main permission of the command.

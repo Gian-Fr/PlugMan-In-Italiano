@@ -56,7 +56,7 @@ public class ListCommand extends AbstractCommand {
     /**
      * The description of the command.
      */
-    public static final String DESCRIPTION = "List all plugins.";
+    public static final String DESCRIPTION = "Mostra tutti i Plugins.";
 
     /**
      * The main permission of the command.

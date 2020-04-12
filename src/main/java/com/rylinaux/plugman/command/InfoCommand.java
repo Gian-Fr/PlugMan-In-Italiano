@@ -53,7 +53,7 @@ public class InfoCommand extends AbstractCommand {
     /**
      * The description of the command.
      */
-    public static final String DESCRIPTION = "View information on a plugin.";
+    public static final String DESCRIPTION = "Vedi le informazioni del Plugin.";
 
     /**
      * The main permission of the command.

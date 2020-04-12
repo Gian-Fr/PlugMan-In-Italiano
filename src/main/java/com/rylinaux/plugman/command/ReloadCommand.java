@@ -48,7 +48,7 @@ public class ReloadCommand extends AbstractCommand {
     /**
      * The description of the command.
      */
-    public static final String DESCRIPTION = "Reload a plugin.";
+    public static final String DESCRIPTION = "Ricarica il Plugin.";
 
     /**
      * The main permission of the command.

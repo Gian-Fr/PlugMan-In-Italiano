@@ -54,7 +54,7 @@ public class DumpCommand extends AbstractCommand {
     /**
      * The description of the command.
      */
-    public static final String DESCRIPTION = "Dump plugins and versions to file.";
+    public static final String DESCRIPTION = "Salva il Plugin e la versione in un File.";
 
     /**
      * The main permission of the command.

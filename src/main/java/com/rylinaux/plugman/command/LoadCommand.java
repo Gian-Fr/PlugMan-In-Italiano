@@ -49,7 +49,7 @@ public class LoadCommand extends AbstractCommand {
     /**
      * The description of the command.
      */
-    public static final String DESCRIPTION = "Load a plugin.";
+    public static final String DESCRIPTION = "Carica il Plugin.";
 
     /**
      * The main permission of the command.

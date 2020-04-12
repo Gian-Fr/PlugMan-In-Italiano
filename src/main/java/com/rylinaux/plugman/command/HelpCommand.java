@@ -47,7 +47,7 @@ public class HelpCommand extends AbstractCommand {
     /**
      * The description of the command.
      */
-    public static final String DESCRIPTION = "Displays help information.";
+    public static final String DESCRIPTION = "Mostra informazioni di aiuto.";
 
     /**
      * The main permission of the command.

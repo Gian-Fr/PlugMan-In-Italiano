@@ -48,7 +48,7 @@ public class EnableCommand extends AbstractCommand {
     /**
      * The description of the command.
      */
-    public static final String DESCRIPTION = "Enable a plugin.";
+    public static final String DESCRIPTION = "Attiva il Plugin.";
 
     /**
      * The main permission of the command.

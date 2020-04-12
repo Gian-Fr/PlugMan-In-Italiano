@@ -48,7 +48,7 @@ public class UnloadCommand extends AbstractCommand {
     /**
      * The description of the command.
      */
-    public static final String DESCRIPTION = "Unload a plugin.";
+    public static final String DESCRIPTION = "Rimuove il Plugin (Per attivarlo di nuovo usare /plugman load).";
 
     /**
      * The main permission of the command.
