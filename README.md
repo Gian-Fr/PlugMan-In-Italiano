@@ -60,6 +60,9 @@ PlugMan è un semplice plugin che permette agli admin di gestire i plugins in-ga
 | ----- | ------- |
 | config.yml | https://github.com/Gian-Fr/PlugMan-In-Italiano/blob/master/src/main/resources/config.yml |
 
+## Novità
+E' online il nuovo server Discord per ricevere assistenza sull' installazione,configurazione ed errori dei Plugins, grazie a questo server potrete mettervi in contatto con me anche per richiedere nuovi plugin da tradurre!
+https://discord.gg/5Dxgj6P
 ## Sponsor 
 
 <div style="text-align:center" markdown="1">
